@@ -18,10 +18,32 @@ h6 {
   font-weight: 700;
 }
 
+.no-gutters-left {
+  background-color: #c9faff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#e6e6e6), color-stop(white), color-stop(white), color-stop(white), to(white));
+  background-image: linear-gradient(to right, #e6e6e6, white, white, white, white);
+}
+
+.no-gutters-right {
+  background-color: #c9faff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#e6e6e6), color-stop(white), color-stop(white), color-stop(white), to(white));
+  background-image: linear-gradient(to right, #e6e6e6, white, white, white, white);
+}
+
+.no-gutters-left-and-right {
+  background-color: #c9faff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#e6e6e6), color-stop(white), color-stop(white), to(#ebf5ff));
+  background-image: linear-gradient(to right, #e6e6e6, white, white, #ebf5ff);
+}
+
+h1.logo-h1 {
+  color: #495057;
+}
+
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: #f8f9fa;
+  background: url("../img/logo.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -29,7 +51,9 @@ header.masthead {
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #c9faff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#cdf7fb), color-stop(white), color-stop(white), to(#cdf7fb));
+  background-image: linear-gradient(to right, #cdf7fb, white, white, #cdf7fb);
   height: 100%;
   width: 100%;
   top: 0;

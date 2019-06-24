@@ -11,3 +11,18 @@ h6 {
   @include body-font;
   font-weight: 700;
 }
+.no-gutters-left{
+    background-color: #c9faff;
+    background-image: linear-gradient(to right, #e6e6e6 , white, white, white, white);
+}
+.no-gutters-right{
+    background-color: #c9faff;
+    background-image: linear-gradient(to right, #e6e6e6 , white, white, white, white);
+}
+.no-gutters-left-and-right{
+    background-color: #c9faff;
+    background-image: linear-gradient(to right, #e6e6e6 , white, white, #ebf5ff);
+}
+h1.logo-h1{
+    color: #495057;
+}
