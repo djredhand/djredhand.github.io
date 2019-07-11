@@ -43,8 +43,8 @@ h1.logo-h1 {
 header.masthead {
   position: relative;
   background-color: #f8f9fa;
-  background: url("../img/logo.jpg") no-repeat center center;
-  background-size: cover;
+  background: url("../img/linkedin_banner_image_1.png") no-repeat center center;
+  background-size: 710px;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -63,6 +63,7 @@ header.masthead .overlay {
 
 header.masthead h1 {
   font-size: 2rem;
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -73,6 +74,10 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.form-row {
+  margin-top: -72px;
 }
 
 .showcase .showcase-text {
@@ -111,16 +116,20 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
-.testimonials {
+.bio {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-.testimonials .testimonial-item {
-  max-width: 18rem;
+.bio .bio-item {
+  max-width: 26rem;
 }
 
-.testimonials .testimonial-item img {
+.bio .bio-item p {
+  text-align: left;
+}
+
+.bio .bio-item img {
   max-width: 12rem;
   -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
   box-shadow: 0px 5px 5px 0px #adb5bd;
@@ -130,7 +139,7 @@ header.masthead h1 {
   position: relative;
   background-color: #343a40;
   background: url("../img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
+  background-size: 710px;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
