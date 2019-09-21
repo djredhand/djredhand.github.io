@@ -43,8 +43,8 @@ h1.logo-h1 {
 header.masthead {
   position: relative;
   background-color: #f8f9fa;
-  background: url("../img/linkedin_banner_image_1.png") no-repeat center center;
-  background-size: 710px;
+  background: url("../img/wellmarkt_logo.png") no-repeat center center;
+  background-size: 350px;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -79,6 +79,14 @@ header.masthead h1 {
 .form-row {
   margin-top: -72px;
 }
+#s_body{
+  display: none; 
+}
+.top-form{
+  position: absolute;
+  top: 195px;
+  width: 100%;
+}
 
 .showcase .showcase-text {
   padding: 3rem;
@@ -97,7 +105,7 @@ header.masthead h1 {
 
 .features-icons {
   padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
 }
 
 .features-icons .features-icons-item {
@@ -122,7 +130,7 @@ header.masthead h1 {
 }
 
 .bio .bio-item {
-  max-width: 26rem;
+  max-width: 31rem;
 }
 
 .bio .bio-item p {
@@ -135,17 +143,16 @@ header.masthead h1 {
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
-.call-to-action {
+.network {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
-  background-size: 710px;
+  background: url("../img/network_web.jpeg") no-repeat center center;
+  background-size: 100%;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-.call-to-action .overlay {
-  position: absolute;
+.network.overlay {
   background-color: #212529;
   height: 100%;
   width: 100%;
@@ -157,4 +164,66 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+.holistic-icon{
+  background: url("../img/star.jpg") no-repeat center center;
+}
+.person-icon{
+  background: url("../img/person.jpg") no-repeat center center;
+}
+.book-icon{
+  background: url("../img/book.jpg") no-repeat center center;
+}
+.list-icon{
+  background: url("../img/list.jpg") no-repeat center center;
+}
+
+.wm-icon{
+  background-size: 40%;
+  width: 100%;
+  height: 100%;
+}
+
+.wm-cities-top{
+    letter-spacing: 15px;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,-0.8) 0%, rgba(255,255,255,.5) 0%, rgba(255,255,255,0) 61%);
+    padding: 40px 0 0 0;
+}
+h3.wm-cities-top{
+  height: 200px;
+}
+h3.wm-cities-bottom{
+  height: 140px;
+  padding: 40px;
+}
+.wm-cities-bottom{
+    margin: 0px;
+    letter-spacing: 15px;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0), rgba(255,255,255,.3) 40%, rgba(255,255,255,.5));
+    padding: 0 0 40px 0;
+}
+
+.bottom-city{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+nav{
+  background: #fff;
+}
+#home{
+  margin: 50px 0 0 0;
+}
+.network-form-row{
+    padding: 20px 0 50px
+}
+.network-header{
+  padding-top: 10px;
+}
+a.active{
+  text-decoration: underline !important;
 }
