@@ -43,8 +43,8 @@ h1.logo-h1 {
 header.masthead {
   position: relative;
   background-color: #f8f9fa;
-  background: url("../img/wellmarktbannerseeking2.png") no-repeat center center;
-  background-size: 650px;
+  background: url("../img/landing_bg.png") no-repeat center center;
+  background-size: 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -73,6 +73,20 @@ header.masthead h1 {
   }
   header.masthead h1 {
     font-size: 3rem;
+  }
+}
+@media (max-width: 768px){
+    a.nav-logo{
+    background-size: 50%;
+    width: 390px !important;
+    height: 100px;
+  }
+  .form-row{
+    margin: -140px 0 0 0 !important;
+  }
+  h3.holistic{
+    margin: -25px 0 0 0;
+    font-size: 20px
   }
 }
 
@@ -104,16 +118,16 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 .features-icons .features-icons-item {
   max-width: 20rem;
+  padding-top: 1rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
+  height: 8rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
@@ -125,13 +139,10 @@ header.masthead h1 {
 }
 
 .bio {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
-.bio .bio-item {
-  max-width: 31rem;
-}
 
 .bio .bio-item p {
   text-align: left;
@@ -141,6 +152,12 @@ header.masthead h1 {
   max-width: 12rem;
   -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
   box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+.bio-item h5, .bio-item h6{
+  text-align: left;
+}
+.bio-item h6{
+  color: #888;
 }
 
 .network {
@@ -166,16 +183,16 @@ footer.footer {
   padding-bottom: 4rem;
 }
 .holistic-icon{
-  background: url("../img/star.jpg") no-repeat center center;
+  background: url("../img/star_logo.png") no-repeat center center;
 }
 .person-icon{
-  background: url("../img/person.jpg") no-repeat center center;
+  background: url("../img/user_logo.png") no-repeat center center;
 }
 .book-icon{
-  background: url("../img/book.jpg") no-repeat center center;
+  background: url("../img/book_logo.png") no-repeat center center;
 }
 .list-icon{
-  background: url("../img/list.jpg") no-repeat center center;
+  background: url("../img/search_logo.png") no-repeat center center;
 }
 
 .wm-icon{
@@ -212,6 +229,12 @@ h3.wm-cities-bottom{
   bottom: 0;
   width: 100%;
 }
+a.nav-logo{
+  background: url("../img/full_logo_big.png") no-repeat center center;
+  background-size: 100%;
+  width: 690px;
+  height: 100px;
+}
 nav{
   background: #fff;
 }
@@ -224,6 +247,23 @@ nav{
 .network-header{
   padding-top: 10px;
 }
+.navbar-expand-lg{
+  flex-wrap: wrap !important;
+} 
 a.active{
   text-decoration: underline !important;
+}
+.btn-primary, .btn-primary:hover {
+  color: #fff;
+  background-color: #f0895e;
+  border-color: #f0895e;
+}
+i.fab{
+  color: #aba6a6;
+}
+.rights-reserved{
+  padding: 15px 0 0 0;
+}
+.row-founders, .row-advisors{
+  padding: 30px 0 0 0;
 }

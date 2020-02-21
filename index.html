@@ -52,8 +52,17 @@
         Menu
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-logo" href="#home"></a>
+          </li>
+        </ul>
+    </div>
+    <div class="container">
+
+      <div class="collapse navbar-collapse flex-column" id="navbarResponsive">
+
+        <ul class="navbar-nav m-auto">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#home">Home</a>
           </li>
@@ -78,10 +87,8 @@
   <header id="home" class="masthead text-white text-center">
     <div class="container">
       <div class="row">
-        <div class="col-xl-12 mx-auto">
-          <h1 class="mb-5 logo-h1">wellmarktbannerseeking2.png</h1>
-        </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <h3 class="holistic">Find the best in holistic health and mind-body practitioners in one place</h3>
         <form class="top-form" action="https://us-central1-iconic-nation-244619.cloudfunctions.net/myWellnessPlatform_Static_Email" method="POST">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
@@ -139,13 +146,14 @@
             </div>
             <h3 class="text-left">Connect Sooner</h3>
             <p class="lead mb-0 text-left">Connect with your perfect match providers today!</p>
+            <p>&nbsp;</p>
           </div>
         </div>
       </div>
     </div>
   </section>
   
-    <!-- Call to Action -->
+  <!-- Call to Action -->
   <section class="network" id="network">
     <div class="container">
       <div class="row">
@@ -154,16 +162,15 @@
       </div>
     </div>
   </section>
-
     <!-- Call to Action -->
   <section id="network2"class="">
     <div class="container">
       <div class="row">
         <div class="col-xl-12 mx-auto">
           <h2 class="mb-4 network-header">For providers, wellmarkt is the LinkedIn of holistic health and wellness.</h2>
-          <p class="font-weight-light mb-0">Built for consumers and wellness providers searching for a match, wellmarkt offers subscriptions and services for therapists/mental health counselors, functional medicine doctors and integrative physicians, chiropractors, yoga therapists and teachers, TCMs and acupuncturists, nutritionists, coaches, massage therapists, and other holistic health and wellness providers to market to and connect with client/consumers.</p>
+          <p class="font-weight-light mb-2">Built for consumers and wellness providers searching for a match, wellmarkt offers subscriptions and services for therapists/mental health counselors, functional medicine doctors and integrative physicians, chiropractors, yoga therapists and teachers, TCMs and acupuncturists, nutritionists, coaches, massage therapists, and other holistic health and wellness providers to market to and connect with client/consumers.</p>
 
-        <ul class="font-weight-light mb-0">
+        <ul class="font-weight-light mb-2">
           <li>Holistic approach to health and wellness <strong>(team-based, integrated approach)</strong></li>
           <li><strong>Best in class marketing</strong> platform for provider/subscribers</li>
           <li><strong>Increased client conversion</strong> rate for professionals and promotion via referral networks</li>
@@ -227,47 +234,97 @@
   <section id="about" class="bio text-center">
     <div class="container">
       <h2 class="mb-5">Who we are...</h2>
-      <div class="row">
-        <div class="col-lg-6">
+      <div class="row row-founders">
+        <div class="col-lg-3">
           <div class="bio-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="img/lc_headshot_web.jpg" alt="">
-            <h5>Lily Cabrera</h5>
-            <p class="font-weight-light mb-0">Lily is a professional coach and writer with two decades of nonprofit management experience (diversified experience in higher education, academic medicine, healthcare, and policy). She is passionate about conscious entrepreneurship and corporate social responsibility and how together our efforts through personal and professional development can transform our communities and the world. Lily holds a BA from Dartmouth College and an MBA from Seton Hall University’s Stillman School of Business. Her MBA is in international business management and marketing, and she has taken courses in accounting, finance, strategic marketing, the legal environment of business, management considerations, information systems, corporate social responsibility, and entrepreneurship. In 2018, she completed professional coach training through Coaches Training Institute (CTI). Lily is a New Yorker at heart living in the very lovable city of Austin, Texas. In her spare time, she enjoys reading way too many books simultaneously, mountain biking the local hill country with her husband, Jed, hanging out with her daughter Sophie and Labraheeler Casey, and teaching yoga and completing a NAMA-Certified Ayurveda Practitioner course of study.</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-9 bio-item">
+          <h5>Lily Cabrera</h5>
+          <h6>Founder and CEO</h6>
+            <p class="font-weight-light mb-2">Lily is a professional coach and writer with two decades of nonprofit management experience (diversified experience in higher education, academic medicine, healthcare, and policy). She is passionate about conscious entrepreneurship and corporate social responsibility and how together our efforts through personal and professional development can transform our communities and the world. Lily holds a BA from Dartmouth College and an MBA from Seton Hall University’s Stillman School of Business. Her MBA is in international business management and marketing, and she has taken courses in accounting, finance, strategic marketing, the legal environment of business, management considerations, information systems, corporate social responsibility, and entrepreneurship. In 2018, she completed professional coach training through Coaches Training Institute (CTI). Lily is a New Yorker at heart living in the very lovable city of Austin, Texas. In her spare time, she enjoys reading way too many books simultaneously, mountain biking the local hill country with her husband, Jed, hanging out with her daughter Sophie and Labraheeler Casey, and teaching yoga and completing a NAMA-Certified Ayurveda Practitioner course of study.</p>
+        </div>
+      </div>
+
+      <div class="row row-founders">
+        <div class="col-lg-3">
           <div class="bio-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="img/jed_headshot_web.jpg" alt="">
-            <h5>Jed Davis</h5>
-            <p class="font-weight-light mb-0">James holds a BS in Science, Mathematics and Technology with a concentration in Information Systems from SUNY Empire State College and a BS in Kinesiology from the University of Colorado at Boulder. He brings with him experience working with various industries including higher education, corporate finance, entertainment, small businesses, and non-profits. Some of his past projects include building interactive learning environments for Columbia University and web applications for Broadway shows and production companies. He enjoys working with JavaScript Frameworks, Python and Django. Some of his other interests are restoring classic motorcycles, sound engineering, music production, tennis, rock climbing, and gardening.</p>
           </div>
+        </div>
+        <div class="col-lg-9 bio-item">
+            <h5>Jed Davis</h5>
+            <h6>Founder and CTO</h6>
+            <p class="font-weight-light mb-2">Jed holds a BS in Science, Mathematics and Technology with a concentration in Information Systems from SUNY Empire State College and a BS in Kinesiology from the University of Colorado at Boulder. He brings with him experience working with various industries including higher education, corporate finance, entertainment, small businesses, and non-profits. Some of his past projects include building interactive learning environments for Columbia University and web applications for Broadway shows and production companies. He enjoys working with JavaScript Frameworks, Python and Django. Some of his other interests are restoring classic motorcycles, music production, tennis, rock climbing, and gardening.</p>
+        </div>
+      </div>
+
+      <div class="row row-advisors">
+        <div class="col-lg-3">
+          <div class="bio-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/ashley-maltz headshot2_crop.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-9 bio-item">
+          <h5>Ashley Maltz, MD, MPH</h5>
+          <h6>Advisor</h6>
+            <p class="font-weight-light mb-2">Integrative Medicine Physician and Founder of the Austin Wellness Collaborative.</p>
+            
+            <p class="font-weight-light mb-2">Dr. Maltz is Board-Certified in Internal Medicine. She was born and raised in Houston and is a graduate of the University of Texas at Austin. She earned her MD and Master in Public Health from the University of Texas Medical Branch (UTMB) in Galveston. She completed her residency in Internal and Preventive Medicine at UTMB in 2011 and then a 2-year Integrative Medicine Fellowship at Stamford Hospital in Stamford, CT where she gained extensive training in medical acupuncture.</p>
+
+            <p class="font-weight-light mb-2">Dr. Maltz is a member of the American College of Physicians and the American College of Lifestyle Medicine, for which she served on the Board of Directors from 2013 – 2015. With her background in various healing modalities, Dr. Maltz uses her knowledge of both complementary and mainstream medical traditions to offer up-to-date and individualized health care for her patients. She offers Integrative Primary Care, Integrative Medicine Consultations, Medical Acupuncture, Trigger Point Injections, Mind-Body Medicine (including Peggy Huddleston’s Prepare for Surgery, Heal Faster surgical preparation program, Mindfulness-Based Eating Awareness Training (MBEAT), Clinical Nutrition and Natural Chronic Disease Management with evidence-based supplements and botanicals.</p>
+
+            <p class="font-weight-light mb-2">She founded the Austin Wellness Collaborative in 2017 to bring health and wellness professionals of all types together--from allopathic physicians to chiropractors to energy healers, psychotherapists, massage therapists and yoga teachers, the group now has more than 1,300 participants.</p>
+        </div>
+      </div>
+
+      <div class="row row-advisors">
+        <div class="col-lg-3">
+          <div class="bio-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/Lindsey_Pratt_Bench_Headshot_crop.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-9 bio-item">
+          <h5>Lindsey C. Pratt, MA</h5>
+          <h6>Advisor</h6>
+          <p class="font-weight-light mb-2">Lindsey is a licensed psychotherapist in New York City, owning a private practice as well as co-founding and co-managing Intuitive Healing Psychotherapy Practice, a group therapy practice of eight clinicians, With a BS in Psychology & Sociology from Tulane University and an MA in Counseling Psychology from University of Holy Cross.</p>
+
+          <p class="font-weight-light mb-2">Lindsey has been working in the mental health field since 2006 after moving to New Orleans, LA following Hurricane Katrina. She has since received advanced training in rape crisis advocacy, EMDR therapy, Jungian sandplay therapy and trauma and addiction work.</p>
+
+          <p class="font-weight-light mb-2">Lindsey derives passion from utilizing holistic modalities in her therapeutic work with clients, and ascribes to the spiritual principles of interconnectedness and inner knowledge as a vehicle for healing. In her free time, Lindsey can be found hiking, cycling, and connecting with nature as much as possible.</p>
+        </div>
+      </div>
+  
+      <div class="row row-advisors">
+        <div class="col-lg-3">
+          <div class="bio-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/MadelyneOliverHeadshot.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-9 bio-item">
+          <h5>Madelyne Oliver, MBA</h5>
+          <h6>Advisor</h6>
+          <p class="font-weight-light mb-2">Madelyne has a BA in Art History and Anthropology from the University of California, Irvine and an MBA from San Francisco State University.</p>
+
+          <p class="font-weight-light mb-2">She has over five years of experience in email marketing, marketing automation, content marketing, and lead acquisition working for large B2B and B2C companies like Monster Worldwide, Gartner, Skyventure, Inc., and Yesler, Inc. She has also built up marketing departments for small startups in the Ecommerce space.</p>
+
+          <p class="font-weight-light mb-2">When not wearing her marketing hat, Madelyne wears her art therapy hat developing courses and organizing workshops designed to help working professionals overcome anxiety, depression, and PTSD outside of their jobs. She believes in holistic healthy daily practices that are complementary to western medicine, in order to manage mental health.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
     <!-- Sample Profile -->
   <section class="call-to-action text-white text-center">
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Coming Soon</h2>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-        <p class="text-muted small mb-4 mb-lg-0">
-          &copy; wellmarkt 2019. All Rights Reserved.
-        </p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+        <div class="col-lg-12 h-100 text-center">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
               <a href="https://www.facebook.com/wellmarkt.us">
@@ -285,6 +342,11 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="col-lg-12 h-100 text-center rights-reserved">
+        <p class="text-muted small mb-4 mb-lg-0">
+          &copy; wellmarkt 2019. All Rights Reserved.
+        </p>
         </div>
       </div>
     </div>
