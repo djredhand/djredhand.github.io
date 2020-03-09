@@ -293,3 +293,14 @@ i.fab{
 .row-founders, .row-advisors{
   padding: 30px 0 0 0;
 }
+.modal{
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+.modal-header{
+  border: none;
+}
+
+.modal-footer{
+  border: none;
+}
