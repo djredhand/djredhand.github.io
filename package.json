@@ -33,7 +33,7 @@
         "@fortawesome/fontawesome-free": "5.9.0",
         "@google-cloud/functions-framework": "1.1.1",
         "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
+        "jquery": "3.5.0",
         "jquery.easing": "^1.4.1",
         "simple-line-icons": "^2.4.1"
     },
