@@ -182,10 +182,10 @@ header.masthead h1 {
 .network {
   position: relative;
   background-color: #343a40;
-  background: url("../img/network_web.jpg") no-repeat center center;
+  background: url("../img/mds.jpeg") no-repeat center center;
   background-size: 100%;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 .network.overlay {
