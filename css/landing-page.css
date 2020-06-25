@@ -48,7 +48,7 @@ header.masthead {
   background-size: 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-position: 0 106px;
+  background-position: 0 0px;
 }
 
 header.masthead .overlay {
@@ -75,10 +75,11 @@ header.masthead h1 {
     margin: -100px 0 0 0;
   }
 }
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
-    padding-bottom: 28rem;
+    padding-bottom: 14rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -86,8 +87,28 @@ header.masthead h1 {
     h3.holistic{
     font-size: 40px;
     font-weight: 900;
-    text-align: left;
-    color:#736a6a;
+
+    color:#fff;
+    text-shadow:2px 2px #0000003d;
+    margin: -180px 0 0 0;
+  }
+}
+@media (min-width: 1140px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 14rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+    h3.holistic{
+    font-size: 40px;
+    font-weight: 900;
+    
+    color:#fff;
+    text-shadow:2px 2px #0000003d;
+    margin: -140px 0 0 0;
+    padding: 0 120px;
   }
 }
 @media (max-width: 768px){
@@ -100,8 +121,9 @@ header.masthead h1 {
     margin: -190px 0 0 0 !important;
   }
   h3.holistic{
-    margin: -60px 0 0 0;
-    font-size: 20px
+    margin: -90px 0 0 0;
+    font-size: 23px;
+    text-shadow: 2px 2px #0000003d;
   }
 }
 
