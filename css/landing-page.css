@@ -86,6 +86,8 @@ header.masthead h1 {
     h3.holistic{
     font-size: 40px;
     font-weight: 900;
+    text-align: left;
+    color:#736a6a;
   }
 }
 @media (max-width: 768px){
