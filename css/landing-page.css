@@ -3,7 +3,9 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
-
+html{
+  color: #333;
+}
 body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
