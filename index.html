@@ -80,26 +80,37 @@
       </div>
     </div>
   </nav>
-
-
+  <div>
+    <video id="home" autoplay muted loop id="myVideo">
+      <source src="video/video.mp4" type="video/mp4"/>
+      Your browser does not support HTML5 video.
+    </video>
+    <h3 class="holistic video-header">Welcome to the New Normal…</h3>
+  </div>
   <!-- Masthead -->
-  <header id="home" class="masthead text-white text-center">
+  <header class="text-white text-center">
+
     <div class="container">
+      <div class="row row-video-text">
+        <div class="col-md-10 col-lg-10 col-xl-10 mx-auto">
+          <h3 class="today"> Today’s workplace has changed, employees want more support for their wellbeing. wellmarkt, has the tools and network to help your <strong>employee wellness program<strong/> keep up.</h3>
+        </div>
+      </div>
       <!-- Button trigger modal -->
       <div class="row">
-        <div class="col-md-10 col-lg-10 col-xl-10 mx-auto">
-          <h3 class="holistic">Find the best in coaching, leadership development, and holistic health practitioners in one place</h3>
-        <form class="top-form" action="https://us-central1-iconic-nation-244619.cloudfunctions.net/myWellnessPlatform_Static_Email" method="POST">
+        <div class="col-md-12">
+
+        <form class="form" action="https://us-central1-iconic-nation-244619.cloudfunctions.net/myWellnessPlatform_Static_Email" method="POST">
             <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" name="email" class="form-control form-control-lg" placeholder="Enter your email for updates..."></input>
+              <div class="col-12 col-md-6 mb-2 mb-md-0">
+                <input type="email" name="email" class="form-control form-control-lg" placeholder="Enter your email..."></input>
               </div>
               <input id="s_body" name="s_body" value=""></input>
               <input type="hidden" name="from_name" value="static_site"></input>
               <input type="hidden" name="subject" value="Contact from static site"></input>
               <input type="hidden" name="body" value="Contact from static site"></input>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+              <div class="col-12 col-md-6">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Get A Free Consultation</button>
               </div>
             </div>
           </form>
@@ -115,10 +126,19 @@
         <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
+              <div class="wm-icon holistic-icon m-auto text-primary"></div>
+            </div>
+            <h3 class="text-center">Holistic</h3>
+            <p class=" mb-0 text-center">Employees can find the best in mental health, life coaching, holistic wellness, and mind-body practitioners in one place.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
               <div class="wm-icon list-icon m-auto text-primary"></div>
             </div>
-            <h3 class="text-center">Customized Search at Lightning Fast Speeds</h3>
-            <p class=" mb-0 text-center">wellmarkt offers instantaneous search results, customized to your concerns and goals.</p>
+            <h3 class="text-center">Well-being Personalized</h3>
+            <p class=" mb-0 text-center"> wellmarkt offers a diverse network, giving employees personalized choice.</p>
           </div>
         </div>
         <div class="col-lg-3">
@@ -127,16 +147,7 @@
               <div class="wm-icon book-icon m-auto text-primary"></div>
             </div>
             <h3 class="text-center">Learning Library</h3>
-            <p class=" mb-0 text-center">Browse the blog and library to learn about well-being and discover practices to increase your vitality.</p>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <div class="wm-icon holistic-icon m-auto text-primary"></div>
-            </div>
-            <h3 class="text-center">Holistic, Integrative, Complementary</h3>
-            <p class=" mb-0 text-center">Find the best in holistic health and mind-body practitioners in one place.</p>
+            <p class=" mb-0 text-center">Users can browse the blog to learn more about the six dimensions of wellness and discover new practices to try.</p>
           </div>
         </div>
         <div class="col-lg-3">
@@ -145,7 +156,7 @@
               <div class="wm-icon person-icon m-auto text-primary"></div>
             </div>
             <h3 class="text-center">Connect Sooner</h3>
-            <p class=" mb-0 text-center">Connect with your perfect match providers today!</p>
+            <p class=" mb-0 text-center">Support your employees today!</p>
             <p>&nbsp;</p>
           </div>
         </div>
@@ -153,41 +164,57 @@
     </div>
   </section>
   
-  <!-- Call to Action -->
-  <section class="network" id="network">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12 mx-auto">
-        </div>
-      </div>
-    </div>
-  </section>
+  
     <!-- Call to Action -->
-  <section id="network2"class="">
+  <section id="network"class="">
     <div class="container">
       <div class="row">
         <div class="col-xl-12 mx-auto">
-          <h2 class="mb-4 network-header">wellmarkt is bringing coaching out of the C-suite and into the hands of healthcare and human services employees.</h2>
-          <p class="font-weight-light mb-2">Our tech-powered total well-being solution allows employers to support their workers through all six dimensions of wellness (Emotional, Occupational, Physical, Social, Intellectual, and Spiritual).</p>
+          <div class="flex-container">
+            <div class="medipeople medipeople-1">
+              <img src="img/medipeople1.png"/>
+            </div>
+            <div class="quote-box">
+                <p class="quotation-mark">
+                  “
+                </p>
+                <p class="quote-text">
+                  When employees feel their employer supports their well-being, they’re 38% more engaged.
+                </p>
+            </div>
+        </div>
 
-        <ul class="font-weight-light mb-2">
-          <li>We match employees to their <strong>best fit coaches, best fit offerings, and best fit wellness providers.</strong></li>
-          <li><strong>Best in class marketing</strong> platform for provider/subscribers</li>
-          <li><strong>Increased client conversion</strong> rate for professionals and promotion via referral networks</li>
-          <li><strong>Social impact.</strong> Give Back Good volunteer exchange to connect subscriber/providers with local nonprofits.</li>
-        </ul>
+        <div class="flex-container">
+          <div class="quote-box color2">
+              <p class="quotation-mark">
+                “
+              </p>
+              <p class="quote-text">
+                Millennials consider support for their well-being as one of the most important aspects of a job.
+              </p>
+            </blockquote>
+          </div>
+              <div class="medipeople medipeople-2">
+              <img src="img/medipeople2.png"/>
+            </div>
+          </div>
+        </div>
 
+        <h2 class="mb-4 network-header">Boost employee well-being by connecting your people to their personalized support team and on-demand resources for self-care</h2>
+        
+        <div class="container form-container">
+          
           <form action="https://us-central1-iconic-nation-244619.cloudfunctions.net/myWellnessPlatform_Static_Email" method="POST">
             <div class="row network-form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" name="email" class="form-control form-control-lg" placeholder="Enter your email for updates..."></input>
+              <div class="col-12 col-md-6 mb-2 mb-md-0">
+                <input type="email" name="email" class="form-control form-control-lg" placeholder="Enter your email.."></input>
               </div>
               <input id="s_body" name="s_body" value=""></input>
               <input type="hidden" name="from_name" value="static_site"></input>
               <input type="hidden" name="subject" value="Contact from static site"></input>
               <input type="hidden" name="body" value="Contact from static site"></input>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+              <div class="col-12 col-md-6">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Request a Demo</button>
               </div>
             </div>
           </form>
@@ -199,7 +226,8 @@
   <!-- Testimonials -->
   <section id="about" class="bio text-center">
     <div class="container">
-      <h2 class="mb-5">Who we are...</h2>
+      <h2>Who we are...</h2>
+      <p class="who-we-are">Led by a team that includes an integrative physician, a holistic psychotherapist, a Fortune 500 master certified coach, and a wellness provider/MBA, all with a passion for mental well-being and organizational health.</p>
       <div class="row row-founders">
         <div class="col-lg-3">
           <div class="bio-item mx-auto mb-5 mb-lg-0">
@@ -301,7 +329,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/wellmarkt/">
+              <a href="https://instagram.com/wellmarkt/">
                 <i class="fab fa-instagram fa-2x fa-fw"></i>
               </a>
             </li>
@@ -354,6 +382,7 @@
   <script src="js/new-age.js"></script>
   <script src="js/email_thank_you.js"></script>
 
+  <a class="typeform-share button" href="https://form.typeform.com/to/FlXth5wC" data-mode="drawer_right" target="_blank">HR Leaders,<br/> got a minute?</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </body>
 
 </html>
